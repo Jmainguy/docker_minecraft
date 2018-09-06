@@ -10,6 +10,6 @@ WORKDIR /opt/minecraft
 RUN wget https://launcher.mojang.com/v1/objects/fe123682e9cb30031eae351764f653500b7396c9/server.jar
 ADD run.sh /opt/minecraft/
 ADD eula.txt /opt/minecraft/
-RUN ls /opt/minecraft
+VOLUME /opt/minecraft/world
 EXPOSE 25565
 CMD ["/opt/minecraft/run.sh"]
