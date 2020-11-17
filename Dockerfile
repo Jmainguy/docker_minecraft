@@ -1,4 +1,4 @@
-FROM centos:latest
+FROM hub.soh.re/centos:latest
 LABEL maintainer="Jonathan Mainguy <jon@jmainguy.com>"
 LABEL version=0.0.1
 LABEL minecraft_version=1.14.4
