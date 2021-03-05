@@ -20,7 +20,7 @@ spec:
         deploymentconfig: dockerminecraft
     spec:
       containers:
-      - image: docker-registry.default.svc:5000/minecraft/dockerminecraft
+      - image: hub.soh.re/docker:1.16.5
         imagePullPolicy: Always
         name: dockerminecraft
         ports:

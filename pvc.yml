@@ -4,7 +4,7 @@ metadata:
   name: minecraft
 spec:
   accessModes:
-    - ReadWriteOnce
+    - ReadWriteMany
   resources:
     requests:
       storage: 10Gi
